@@ -1,0 +1,46 @@
+Abundance Protocol
+Copyright 2026 Dirgha LLC
+
+This product includes software developed by Dirgha LLC (https://dirgha.ai).
+
+This software is licensed under the Apache License, Version 2.0.
+
+--------------------------------------------------------------------------------
+
+Third-Party Components
+----------------------
+
+libp2p
+  Copyright: Protocol Labs and contributors
+  License: Apache-2.0 / MIT
+  Source: https://github.com/libp2p/js-libp2p
+
+ln-service
+  Copyright: Alex Bosworth and contributors
+  License: MIT
+  Source: https://github.com/alexbosworth/ln-service
+
+bitcoinjs-lib
+  Copyright: Daniel Cousens and contributors
+  License: MIT
+  Source: https://github.com/bitcoinjs/bitcoinjs-lib
+
+viem
+  Copyright: wevm contributors
+  License: MIT
+  Source: https://github.com/wevm/viem
+
+ethers.js
+  Copyright: Richard Moore and contributors
+  License: MIT
+  Source: https://github.com/ethers-io/ethers.js
+
+drizzle-orm
+  Copyright: Drizzle Team
+  License: Apache-2.0
+  Source: https://github.com/drizzle-team/drizzle-orm
+
+Hono
+  Copyright: Yusuke Wada and contributors
+  License: MIT
+  Source: https://github.com/honojs/hono

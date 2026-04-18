@@ -1,0 +1,55 @@
+{
+  "name": "@dirgha/abundance-protocol",
+  "version": "0.1.0",
+  "description": "Open-source DePIN protocol for distributed AI inference, decentralized compute, and peer-to-peer payments.",
+  "license": "Apache-2.0",
+  "author": "Dirgha LLC <team@dirgha.ai>",
+  "homepage": "https://dirgha.ai/abundance-protocol",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dirghaai/abundance-protocol.git"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/daemon/index.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@chainsafe/libp2p-noise": "^16.0.0",
+    "@chainsafe/libp2p-yamux": "^7.0.0",
+    "@grpc/grpc-js": "^1.9.0",
+    "@hono/node-server": "^1.13.0",
+    "@libp2p/bootstrap": "^11.0.0",
+    "@libp2p/gossipsub": "^14.0.0",
+    "@libp2p/identify": "^3.0.0",
+    "@libp2p/mdns": "^11.0.0",
+    "@libp2p/tcp": "^10.0.0",
+    "bech32": "^2.0.0",
+    "better-sqlite3": "^12.8.0",
+    "bip32": "^4.0.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^6.10.0",
+    "hono": "^4.0.0",
+    "libp2p": "^2.0.0",
+    "ln-service": "^58.0.3",
+    "pg": "^8.11.0",
+    "tiny-secp256k1": "^2.2.0",
+    "viem": "^2.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^20.0.0",
+    "@types/pg": "^8.11.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^2.0.0"
+  }
+}

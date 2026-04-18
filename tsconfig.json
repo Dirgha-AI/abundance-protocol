@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tests",
+    "src/security/firecrackerHardening.ts",
+    "src/security/lightningHardening.ts",
+    "src/security/networkHardening.ts",
+    "src/training/coordinator.ts",
+    "src/cli/commands.ts",
+    "src/daemon.ts",
+    "src/code/parser.ts"
+  ]
+}
