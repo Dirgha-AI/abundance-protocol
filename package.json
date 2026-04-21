@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Open-source DePIN protocol for distributed AI inference, decentralized compute, and peer-to-peer payments.",
   "license": "Apache-2.0",
-  "author": "Dirgha LLC <team@dirgha.ai>",
+  "author": "Salik Shah <salik@dirgha.ai>",
   "homepage": "https://dirgha.ai/abundance-protocol",
   "repository": {
     "type": "git",
@@ -51,5 +51,11 @@
     "tsx": "^4.0.0",
     "typescript": "^5.0.0",
     "vitest": "^2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/dirghaai/abundance-protocol/issues"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
