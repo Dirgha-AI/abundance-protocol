@@ -217,24 +217,61 @@ The pattern:
 2. Wire into `src/services/core.ts`
 3. Add a test in `tests/` that stubs external dependencies
 
+## Sister projects in the Dirgha OS
+
+This repo is one of five that make up the open-source surface of the Dirgha OS. Each repo stands on its own; together they compose a full stack for builders.
+
+| Repo | What it does | License |
+|---|---|---|
+| [`dirgha-code`](https://github.com/dirghaai/dirgha-code) | Terminal-native AI coding agent. BYOK, 14 providers, 43 tools, fleet-mode multi-agent. | FSL-1.1-MIT |
+| [`creator-studio`](https://github.com/dirghaai/creator-studio) | Backend API for the creator economy. Monetization, campaigns, memberships, social integrations. | Apache-2.0 |
+| [`writer-studio`](https://github.com/dirghaai/writer-studio) | Backend API for writing — science, fiction, screenplays, research. Binder + AI research + RAG. | Apache-2.0 |
+| [`arniko`](https://github.com/dirghaai/arniko) | AI security scanning. 36 scanner adapters unified into one stream of typed findings. | Apache-2.0 |
+
+Visit the umbrella org at [github.com/dirghaai](https://github.com/dirghaai) or the product site at [dirgha.ai](https://dirgha.ai).
+
 ## License
 
-**Apache License 2.0.** Free for any use — personal, commercial, research,
-hosted, redistributed. Full text in [`LICENSE`](./LICENSE).
+**Apache License 2.0** — free for any use: personal, commercial, research, hosted, redistributed. Run nodes, fork the protocol, build a competing network. Full text in [`LICENSE`](./LICENSE).
 
-## Security
+**Dirgha LLC owns the “Dirgha” name, logo, and product family** as registered trademarks. The code is open — the brand isn't. Forks of this repository must rename the product and remove Dirgha branding before distribution. Reasonable nominative use (“a fork of Abundance Protocol”) is fine.
 
-Found a vulnerability in Abundance Protocol? Email `security@dirgha.ai`.
-Do NOT open a public issue. We respond within 48 hours.
+See [`LICENSE`](./LICENSE) for the full legal text. Related documents:
 
-## Support
+- [`SECURITY.md`](./SECURITY.md) — vulnerability disclosure policy.
+- [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md) — Contributor Covenant 2.1.
+- [`SUPPORT.md`](./SUPPORT.md) — where to ask for help.
+- [`CONTRIBUTING.md`](./CONTRIBUTING.md) — how to send a PR.
 
-- Website: https://dirgha.ai/abundance-protocol
-- Issues: https://github.com/dirghaai/abundance-protocol/issues
-- Sponsor: https://dirgha.ai/contribute
+
+## Contribute
+
+- **Code** — fork, branch, PR against `main`. Recipes in [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+- **Bugs** — file an issue using the [bug template](https://github.com/dirghaai/abundance-protocol/issues/new?template=bug.md).
+- **Features** — file an issue using the [feature template](https://github.com/dirghaai/abundance-protocol/issues/new?template=feature.md).
+- **Questions** — open a [Discussion](https://github.com/dirghaai/abundance-protocol/discussions) rather than an issue.
+- **Security** — email `security@dirgha.ai`. Do NOT file a public issue for vulnerabilities.
+- **Sponsor** — [dirgha.ai/contribute](https://dirgha.ai/contribute) · Lightning, GitHub Sponsors, OpenCollective.
+- **First-time contributor?** Your first PR will ask you to sign the CLA (see [`CLA.md`](./CLA.md)). Small doc fixes don't need one.
+
+## Links
+
+| | |
+|---|---|
+| Website | [https://dirgha.ai/abundance-protocol](https://dirgha.ai/abundance-protocol) |
+| Repository | [github.com/dirghaai/abundance-protocol](https://github.com/dirghaai/abundance-protocol) |
+| Issues | [github.com/dirghaai/abundance-protocol/issues](https://github.com/dirghaai/abundance-protocol/issues) |
+| Discussions | [github.com/dirghaai/abundance-protocol/discussions](https://github.com/dirghaai/abundance-protocol/discussions) |
+| Security | `security@dirgha.ai` |
+| Enterprise | `enterprise@dirgha.ai` |
+| Press / general | `hello@dirgha.ai` |
 
 ---
 
-Built by Dirgha LLC. Named after Buckminster Fuller — architect of abundance.
+**Abundance Protocol** is part of the Dirgha OS — open-source infrastructure for builders, shipped by a small bootstrapped team.
 
-Copyright 2026 Dirgha LLC.
+Named after Buckminster Fuller — architect of abundance. The protocol's thesis: compute is post-scarcity if you route it right.
+
+Built by [Dirgha LLC](https://dirgha.ai) in India. Open to the world.
+
+Released under **Apache-2.0** · Copyright © 2026 Dirgha LLC · All third-party trademarks are property of their owners.
