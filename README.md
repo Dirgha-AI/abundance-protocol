@@ -1,16 +1,15 @@
 # Abundance Protocol
 
-**Open-source DePIN for distributed AI inference, decentralized compute, and peer-to-peer payments.**
+**Decentralized compute and labor network. Rent GPUs, run agents, settle on Bitcoin.**
 
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](./LICENSE)
 [![Sponsor](https://img.shields.io/badge/sponsor-%E2%99%A1-ec4899?style=flat-square)](https://dirgha.ai/contribute)
 
 ---
 
-Abundance Protocol is a peer-to-peer compute network. Nodes share GPU and CPU capacity
-for AI inference workloads, coordinate through a gossipsub mesh, settle in Bitcoin
-Lightning, and govern themselves through on-chain proposals. Anyone can join. No central
-operator.
+Abundance Protocol is a peer-to-peer network for compute and work. Anyone with a GPU can rent it out, anyone running agents can find capacity, and settlement happens on Bitcoin Lightning — escrowed until the work is verified. No central operator. No platform tax. Anyone can join.
+
+Open-source. Self-hostable. Part of the [Dirgha AI OS](https://github.com/Dirgha-AI/Rama-I-Dirgha-AI-OS).
 
 ## What it does
 
@@ -219,16 +218,17 @@ The pattern:
 
 ## Sister projects in the Dirgha OS
 
-This repo is one of five that make up the open-source surface of the Dirgha OS. Each repo stands on its own; together they compose a full stack for builders.
+This repo is one of several products under the [Dirgha AI OS](https://github.com/Dirgha-AI/Rama-I-Dirgha-AI-OS) umbrella. Each repo stands on its own; together they compose a full stack for builders.
 
 | Repo | What it does | License |
 |---|---|---|
-| [`dirgha-code`](https://github.com/dirghaai/dirgha-code) | Terminal-native AI coding agent. BYOK, 14 providers, 43 tools, fleet-mode multi-agent. | FSL-1.1-MIT |
-| [`creator-studio`](https://github.com/dirghaai/creator-studio) | Backend API for the creator economy. Monetization, campaigns, memberships, social integrations. | Apache-2.0 |
-| [`writer-studio`](https://github.com/dirghaai/writer-studio) | Backend API for writing — science, fiction, screenplays, research. Binder + AI research + RAG. | Apache-2.0 |
-| [`arniko`](https://github.com/dirghaai/arniko) | AI security scanning. 36 scanner adapters unified into one stream of typed findings. | Apache-2.0 |
+| [`Rama-I-Dirgha-AI-OS`](https://github.com/Dirgha-AI/Rama-I-Dirgha-AI-OS) | Vision & roadmap for our agentic, sovereign AI operating system. | Apache-2.0 |
+| [`dirgha-code`](https://github.com/Dirgha-AI/dirgha-code) | AI coding agent for your terminal. Your keys, your machine, any model. | FSL-1.1-MIT |
+| [`writer-studio`](https://github.com/Dirgha-AI/writer-studio) | Long-form writing studio — science, fiction, screenplays, research. | Apache-2.0 |
+| [`creator-studio`](https://github.com/Dirgha-AI/creator-studio) | Creator workspace — agents for production, posting, monetization. | Apache-2.0 |
+| [`arniko`](https://github.com/Dirgha-AI/arniko) | AI security scanner. Every tool, one unified report. | Apache-2.0 |
 
-Visit the umbrella org at [github.com/dirghaai](https://github.com/dirghaai) or the product site at [dirgha.ai](https://dirgha.ai).
+Visit the umbrella org at [github.com/Dirgha-AI](https://github.com/Dirgha-AI) or the product site at [dirgha.ai](https://dirgha.ai).
 
 ## License
 
@@ -284,12 +284,12 @@ Released under **Apache-2.0** · Copyright © 2026 Dirgha LLC · All third-party
 
 | Repo | What it does |
 |---|---|
-| [Rama-I-Dirgha-AI-OS](https://github.com/Dirgha-AI/Rama-I-Dirgha-AI-OS) | Vision, architecture, and the Rama I sovereign compute challenge |
-| [abundance-protocol](https://github.com/Dirgha-AI/abundance-protocol) | P2P compute mesh for distributed AI inference |
-| [arniko](https://github.com/Dirgha-AI/arniko) | Security scanner and red-teaming agent |
-| [dirgha-code](https://github.com/Dirgha-AI/dirgha-code) | Autonomous software engineering CLI (`@dirgha/cli`) |
-| [creator-studio](https://github.com/Dirgha-AI/creator-studio) | AI-native media production workspace |
-| [writer-studio](https://github.com/Dirgha-AI/writer-studio) | AI-native document workspace |
+| [Rama-I-Dirgha-AI-OS](https://github.com/Dirgha-AI/Rama-I-Dirgha-AI-OS) | Vision & roadmap for our agentic, sovereign AI operating system |
+| [dirgha-code](https://github.com/Dirgha-AI/dirgha-code) | AI coding agent for your terminal |
+| [writer-studio](https://github.com/Dirgha-AI/writer-studio) | Long-form writing studio — science, fiction, screenplays, research |
+| [creator-studio](https://github.com/Dirgha-AI/creator-studio) | Creator workspace — agents for production, posting, monetization |
+| [abundance-protocol](https://github.com/Dirgha-AI/abundance-protocol) | Decentralized compute and labor network |
+| [arniko](https://github.com/Dirgha-AI/arniko) | AI security scanner — every tool, one unified report |
 | [.github](https://github.com/Dirgha-AI/.github) | Org profile and community configuration |
 
 - **Live platform:** [dirgha.ai](https://dirgha.ai) — chat, IDE, writer, research, library, marketplace, creator, education, manufacturing
